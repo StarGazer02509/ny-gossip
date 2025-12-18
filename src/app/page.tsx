@@ -1,4 +1,7 @@
 // filepath: /Users/ricky/Workspace/git/001_Network/ny-gossip/src/app/page.tsx
+
+export const dynamic = 'force-dynamic';
+
 import { supabase } from "@/lib/supabaseClient";
 
 export default async function Home() {
